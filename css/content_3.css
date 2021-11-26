@@ -1,0 +1,38 @@
+.content_3{
+    width: 1300px;
+    height: 540px;    
+}
+
+.content_3_title{
+    width: 166px;    
+
+    font-family: "Rubik";
+    font-weight: bold;
+    font-size: 24px;
+
+    text-align: center;
+    display: flex;
+    letter-spacing: 0.1em;
+
+    color: #EE4D47;
+
+    padding-bottom: 13px;
+}
+
+.content_3_text{
+    width: 453px;
+    height: 67px;
+
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    line-height: 140%;
+
+    color: #402B2B;
+    align-items: center;
+
+    padding-bottom: 50px;
+}
+
+.content_3_cards{
+    display: flex;
+}

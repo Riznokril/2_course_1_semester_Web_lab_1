@@ -1,0 +1,33 @@
+.title {
+    width: 741px;
+    height: 300px;
+
+    font-family: "DM Serif Display";
+    font-size: 100px;
+    line-height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.car_image {
+    position: relative;
+    left: -120px;
+    padding-bottom: 117px;
+}
+
+.hero{
+    background-size: 1285px 800px;
+    background-image: url("../images/background_scene.svg");
+    background-repeat: no-repeat; 
+    background-position: right top;
+    background: url("../images/background_scene.svg") no-repeat right -248px top -54px;
+}
+
+.container__hero {
+    padding-top: 90px;
+    padding-left: 240px;
+    padding-bottom: 54px;    
+}
