@@ -1,0 +1,119 @@
+.content_3{
+    width: 1300px;
+    height: 540px;
+    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-bottom: 184px;
+}
+
+.content_3_title{
+    width: 166px;    
+
+    font-family: "Rubik";
+    font-weight: bold;
+    font-size: 24px;
+
+    
+    letter-spacing: 0.1em;
+
+    color: #EE4D47;
+
+    padding-bottom: 13px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content_3_text{
+    width: 453px;
+    height: 67px;
+
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    line-height: 140%;
+
+    color: #402B2B;
+
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content_3_cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_3_card_1{
+    width: 420px;
+    height: 360px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+    border-radius: 10px;
+}
+
+
+.content_3_card_textbox{
+    width: 320px;
+    height: 180px;
+
+    padding-top: 60px;
+    padding-left: 48px;
+    padding-bottom: 20px;
+}
+
+.content_3_card_text{
+    font-family: "Rubik";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+
+    text-align: left;
+
+    color: #402B2B;
+}
+
+.content_3_card_info{
+    display: flex;
+    padding-left: 48px;
+    height: 60px;
+}
+
+.content_3_card_name{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    height: 40px;
+
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    display: flex;
+    align-items: center;
+
+    color: #402B2B;
+}
+
+.content_3_card_2{
+    width: 420px;
+    height: 360px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+    border-radius: 10px;
+}
+
+.content_3_card_3{
+    width: 420px;
+    height: 360px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+    border-radius: 10px;
+}

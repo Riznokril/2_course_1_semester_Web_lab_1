@@ -1,0 +1,42 @@
+.footer{
+    width: 1600px;
+    height: 205px;
+
+    background: #F16353;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_logo{
+    width: 212px;
+    height: 50px;
+}
+
+.footer_copyright{
+    padding-left: 152px;
+
+    width: 165px;
+    height: 40px;
+
+    font-family: "Rubik";
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+    display: flex;
+    align-items: center;
+
+    color: #F8F9FA;
+}
+
+.footer_social_medias{
+    margin-right: 281px;
+}
+
+.footer_t{
+    padding-left: 10px;
+    padding-right: 10px;
+}

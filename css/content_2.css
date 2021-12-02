@@ -1,0 +1,35 @@
+
+.content_2{
+    display: flex;
+    padding-top: 29px;
+    padding-left: 134px;
+    width: 1232,45px;
+    height: 678,76px;
+}
+
+.content_2_title{
+    font-family: "Rubik";
+
+    font-weight: bold;
+    font-size: 24px;
+
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    padding-top: 101px;
+    padding-bottom: 40px;
+
+    color: #EE4D47;
+}
+
+.content_2_text{
+    font-family: "Rubik";
+    
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+
+    color: #402B2B;
+
+    width: 455px;
+}
