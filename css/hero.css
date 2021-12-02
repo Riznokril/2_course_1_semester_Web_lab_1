@@ -1,7 +1,5 @@
 .container{
-    margin: 0;
     max-width: 1100px;
-    width: 100%;
     padding-top: 40px;
     margin: 0 auto;
 }
@@ -26,16 +24,41 @@
     padding-bottom: 117px;
 }
 
+
+
 .hero{
-    background-size: 1285px 800px;
-    background-image: url("../images/background_scene.svg");
-    background-repeat: no-repeat; 
-    background-position: right top;
-    background: url("../images/background_scene.svg") no-repeat right -248px top -54px;
+    background: url("../images/background_scene.svg") no-repeat right -248px top -54px; 
 }
 
 .container__hero {
     padding-top: 90px;
     padding-left: 240px;
     padding-bottom: 54px;    
+}
+
+
+@media screen and (max-width: 321px) {
+
+    .hero{
+        background: none;
+    }
+
+    .container__hero {
+        padding-top: 45px;
+        padding-left: 0px;
+        padding-bottom: 27px; 
+        
+        width: 100%;
+        
+        text-align: center;
+    }
+
+    .title{
+        color: #EE4D47;
+        width: 320px;
+        height: 100%;
+        font-size: 60px;
+
+        text-align: center;
+    }
 }

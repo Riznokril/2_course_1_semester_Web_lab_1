@@ -3,8 +3,7 @@
     display: flex;
     padding-top: 29px;
     padding-left: 134px;
-    width: 1232,45px;
-    height: 678,76px;
+
 }
 
 .content_2_title{
@@ -20,6 +19,21 @@
     padding-bottom: 40px;
 
     color: #EE4D47;
+
+    animation-duration: 3s;
+    animation-name: slidein_2;
+}
+
+@keyframes slidein_2 {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
 }
 
 .content_2_text{
@@ -32,4 +46,31 @@
     color: #402B2B;
 
     width: 455px;
+}
+
+
+
+@media screen and (max-width: 321px) {
+  .content_2{
+      display: block;
+      padding-left: 0px;
+      margin: auto;
+      
+  }
+
+  .content_2_illustration{
+    position: relative;
+    width: 320px;
+  }
+
+  .content_2_text{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 310px;
+}
+
+.content_2_title{
+    text-align: center;
+    padding-top: 10px;
+}
 }
